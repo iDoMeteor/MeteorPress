@@ -161,8 +161,6 @@ console.log ('INFO Loading #MeteorPress API');
  *
  *
  * ***********************************************************************************************/
-
-
 MP = {
 
   /*
@@ -173,7 +171,6 @@ MP = {
   FUNCTIONS ONLY AUTO EXPORTED!
 
   */
-
 
   /**
    *
@@ -3064,7 +3061,6 @@ MP = {
   userNick: function() {
     return MP.user().profile.nick;
   },
-
 
 
   /**

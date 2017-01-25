@@ -30,7 +30,7 @@
                     enjoyed creating it.
                 </p>
                 <p>
-                    Following are several simple screens that will help you customize 
+                    Following are several simple screens that will help you customize
                     your installation so that you may begin entering amazing content!
                     It may not be a 'one-click-installer,' but you won't have to
                     spend hours trying to add basic functionality afterwards either. :)
@@ -98,29 +98,29 @@
                 <form id="mp-install-super-user-form">
                     <div class="form-group">
                         <label for="username" class="control-label">Username</label>
-                        <input name="username" id="mp-install-username" class="mp-fc-required form-control" type="text" /> 
+                        <input name="username" id="mp-install-username" class="mp-fc-required form-control" type="text" />
                         <div class="mp-form-help">A string with only letters, numbers and underscores, 15 or less characters length</div>
-                    </div>    
+                    </div>
                     <div class="form-group">
                         <label for="email" class="control-label">Email</label>
-                        <input name="email" id="mp-install-email" class="mp-fc-required form-control" type="text" /> 
+                        <input name="email" id="mp-install-email" class="mp-fc-required form-control" type="text" />
                         <div class="mp-form-help">A valid email address</div>
-                    </div>    
+                    </div>
                     <div class="form-group">
                         <label for="password" class="control-label">Password</label>
-                        <input name="password" id="mp-install-password" class="mp-fc-required form-control" type="password" /> 
+                        <input name="password" id="mp-install-password" class="mp-fc-required form-control" type="password" />
                         <div class="mp-form-help">String without space between 8 and 255 characters in length</div>
-                    </div>    
+                    </div>
                     <div class="form-group">
                         <label for="password-confirm" class="control-label">Confirm Password</label>
-                        <input name="password-confirm" id="mp-install-password-confirm" class="mp-fc-required form-control" type="password" /> 
+                        <input name="password-confirm" id="mp-install-password-confirm" class="mp-fc-required form-control" type="password" />
                         <div class="mp-form-help">Must match previous</div>
-                    </div>    
+                    </div>
                     <div class="form-group">
                         <label for="imageURL" class="control-label">Image url</label>
-                        <input name="imageURL" id="mp-install-image-url" class="mp-fc-optional form-control" type="text" /> 
+                        <input name="imageURL" id="mp-install-image-url" class="mp-fc-optional form-control" type="text" />
                         <div class="mp-form-help">A valid URL which is a PNG, JPG or GIF image for your profile</div>
-                    </div>    
+                    </div>
                 </form>
             </div>
             <div class="col-sm-2 col-md-3">
@@ -164,23 +164,23 @@
             <div class="col-sm-8 col-md-6">
                 <p>
                     #MeteorPress is pleased to offer you and your visitors the opportunity
-                    to login swiftly and easily with the most popular services.  
+                    to login swiftly and easily with the most popular services.
                 </p>
                 <p>
-                    While this requires a few minutes to set up (if you waited till now), 
-                    it will greatly increate the rate of registered users for your site and 
-                    the frequency with which they login.  And trust me, you want both of these 
+                    While this requires a few minutes to set up (if you waited till now),
+                    it will greatly increate the rate of registered users for your site and
+                    the frequency with which they login.  And trust me, you want both of these
                     things! :)
                 </p>
                 <p>
                     If you came to class well prepared, then you can click on each service
                     you would like to use and simply paste your keys in and hit save.  If not,
-                    click on the button for each service you would like to use and follow the 
+                    click on the button for each service you would like to use and follow the
                     very nice instructions the good people @MeteorJS took the time to make for us.
                 </p>
                 <p>
-                    You can always edit these later, easy peasy!  I will automagically 
-                    disable those which you do not configure now so that they won't get 
+                    You can always edit these later, easy peasy!  I will automagically
+                    disable those which you do not configure now so that they won't get
                     in the way later.
                 </p>
             </div>
@@ -215,12 +215,12 @@
             <div class="col-sm-2 col-md-3">
             </div>
             <div class="col-sm-8 col-md-6 text-center">
-                {{#autoForm 
-                    id              = "mp-install-login-keys-form" 
+                {{#autoForm
+                    id              = "mp-install-login-keys-form"
                     meteormethod    = "MP.installLoginKeys"
                     omitFields      = "stamp, revision"
                     schema          = mpInstallLoginKeysSchema
-                    type            = "method" 
+                    type            = "method"
                 }}
                     <fieldset class="text-center">
                         <div>
@@ -381,8 +381,8 @@
                 <form id="mp-install-google-analytics-form">
                     <div class="form-group">
                         <label class="control-label" for="mp-install-ga-key">Key</label>
-                        <input id="mp-install-ga-key" class="form-control" name="key" type="text">    
-                    </div>    
+                        <input id="mp-install-ga-key" class="form-control" name="key" type="text">
+                    </div>
                  </form>
             </div>
         </div>
@@ -454,12 +454,12 @@
                 <form id="mp-install-kadira-form">
                     <div class="form-group">
                         <label class="control-label" for="mp-install-kadira-key">Key</label>
-                        <input class="form-control" id="mp-install-kadira-key" name="key" type="text">    
-                    </div>    
+                        <input class="form-control" id="mp-install-kadira-key" name="key" type="text">
+                    </div>
                     <div data-required="true" class="form-group">
                         <label class="control-label" for="mp-install-kadira-secret">Secret</label>
-                        <input class="form-control" id="mp-install-kadira-secret" name="secret" type="text">    
-                    </div>    
+                        <input class="form-control" id="mp-install-kadira-secret" name="secret" type="text">
+                    </div>
                 </form>
             </div>
             <div class="col-sm-2 col-md-3">
@@ -522,12 +522,12 @@
             </div>
         </div>
         <div class="row" id="mp-installer-configuration-form">
-            {{#autoForm 
+            {{#autoForm
                 collection      = collectionConfiguration
                 doc             = defaultConfigObject
-                id              = "mp-install-configuration-form" 
+                id              = "mp-install-configuration-form"
                 omitFields      = "stamp, revision"
-                type            = "method" 
+                type            = "method"
             }}
                 <div class="col-sm-4 col-md-4">
                     <fieldset>
@@ -606,9 +606,6 @@
             </div>
             <div class="col-sm-8 col-md-6 text-center">
                 <p>&nbsp;</p>
-                <button class="btn btn-primary" id="mp-install-default-content-back">
-                    Back
-                </button>
                 <button id="mp-install-default-content-yes" class="btn btn-primary">
                     Do me up
                 </button>

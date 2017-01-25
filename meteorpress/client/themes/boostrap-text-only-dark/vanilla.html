@@ -44,25 +44,25 @@
                 <p class="text-center">Click the icon of your favorite service</p>
                 <p>&nbsp;</p>
                 <ul id="mp-auth-icons" class="list-inline">
-                    {{#if enableLoginWithFacebook}} 
+                    {{#if enableLoginWithFacebook}}
                         <li id="mp-auth-facebook"><i class="fa fa-facebook fa-3x"></i></li>
                     {{/if}}
-                    {{#if enableLoginWithGithub}} 
+                    {{#if enableLoginWithGithub}}
                         <li id="mp-auth-github"><i class="fa fa-github fa-3x"></i></li>
                     {{/if}}
-                    {{#if enableLoginWithGoogle}} 
+                    {{#if enableLoginWithGoogle}}
                         <li id="mp-auth-google"><i class="fa fa-google fa-3x"></i></li>
                     {{/if}}
-                    {{#if enableLoginWithMeetup}} 
+                    {{#if enableLoginWithMeetup}}
                         <li id="mp-auth-meetup"><img class="fa fa-3x" src="/meteorpress/images/icons/meetup.png" title="Authenticate with Meetup" alt="Meetup" /></li>
                     {{/if}}
-                    {{#if enableLoginWithMeteorDeveloper}} 
+                    {{#if enableLoginWithMeteorDeveloper}}
                         <li id="mp-auth-meteor-developer"><img class="fa fa-3x" src="/meteorpress/images/icons/meteor.png" title="Authenticate with Meteor Developer" alt="Meteor Developer" /></li>
                     {{/if}}
-                    {{#if enableLoginWithTwitter}} 
+                    {{#if enableLoginWithTwitter}}
                         <li id="mp-auth-twitter"><i class="fa fa-twitter fa-3x"></i></li>
                     {{/if}}
-                    {{#if enableLoginWithWeibo}} 
+                    {{#if enableLoginWithWeibo}}
                         <li id="mp-auth-weibo"><i class="fa fa-weibo fa-3x"></i></li>
                     {{/if}}
                 </ul>
@@ -420,8 +420,8 @@
         <div class="container top-margin-5">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <img 
-                        src     = "/meteorpress.png" 
+                    <img
+                        src     = "/meteorpress.png"
                         class   = "img-responsive center-block"
                         title   = "#MeteorPress is in maintenance mode" />
                     <h1>#MeteorPress is in maintenance mode</h1>
@@ -559,9 +559,9 @@
         </div>
     </div>
     <ul id="mp-navigation-menu" class="list-unstyled">
-        {{>mpNavigationRoot}}        
-        {{>mpNavigationPages}}        
-        {{>mpNavigationFooter}}        
+        {{>mpNavigationRoot}}
+        {{>mpNavigationPages}}
+        {{>mpNavigationFooter}}
     </ul>
 
 </template>
@@ -717,7 +717,7 @@
             </a>
         </li>
     {{/if}}
-    
+
 </template>
 
 
@@ -836,10 +836,10 @@
                 {{>mpMarkDownBar}}
             </div>
             <div class="col-xs-12">
-                <textarea rows="30" 
-                    class="form-control z1" 
-                    id="mp-page-editor-body" 
-                    name="contentBody" 
+                <textarea rows="30"
+                    class="form-control z1"
+                    id="mp-page-editor-body"
+                    name="contentBody"
                     type="text"></textarea>
             </div>
         </div>
@@ -857,49 +857,49 @@
         <button id="mp-page-editor-toggle" class="btn btn-primary">
             <i class="fa fa-caret-right"></i>
         </button>
-        <button id="mp-page-editor-toggle-navigation" 
+        <button id="mp-page-editor-toggle-navigation"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-flag-o"></i>
         </button>
-        <button id="mp-page-editor-toggle-dashboard" 
+        <button id="mp-page-editor-toggle-dashboard"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-tachometer"></i>
         </button>
-        <button id="mp-page-editor-toggle-metadata" 
+        <button id="mp-page-editor-toggle-metadata"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-sitemap"></i>
         </button>
-        <button id="mp-page-editor-toggle-images" 
+        <button id="mp-page-editor-toggle-images"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-image"></i>
         </button>
-        <button id="mp-page-editor-toggle-audio" 
+        <button id="mp-page-editor-toggle-audio"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-music"></i>
         </button>
-        <button id="mp-page-editor-toggle-video" 
+        <button id="mp-page-editor-toggle-video"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-video-camera"></i>
         </button>
-        <button id="mp-page-editor-toggle-template" 
+        <button id="mp-page-editor-toggle-template"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-paint-brush"></i>
         </button>
         {{!-- Custom form fields .. v1.4.x
-            <button id="mp-page-editor-toggle-template" 
+            <button id="mp-page-editor-toggle-template"
                     class="mp-page-editor-tab btn btn-primary">
                 <i class="fa fa-form"></i>
             </button>
         --}}
-        <button id="mp-page-editor-toggle-toggles" 
+        <button id="mp-page-editor-toggle-toggles"
                 class="mp-page-editor-tab btn btn-primary">
             <i class="fa fa-toggle-on"></i>
         </button>
-        <button id="mp-page-editor-toggle-publish" 
+        <button id="mp-page-editor-toggle-publish"
                 class="mp-page-editor-tab btn btn-info">
             <i class="fa fa-send"></i>
         </button>
-        <button id="mp-page-editor-toggle-trash" 
+        <button id="mp-page-editor-toggle-trash"
                 class="mp-page-editor-tab btn btn-danger">
             <i class="fa fa-trash"></i>
         </button>
@@ -974,11 +974,11 @@
             <dl>
                 <dt>Link</dt>
                 <dd>
-                    <input 
-                        class="form-control" 
-                        id="mp-page-editor-content-spoken" 
-                        name="contentSpoken" 
-                        type="text">    
+                    <input
+                        class="form-control"
+                        id="mp-page-editor-content-spoken"
+                        name="contentSpoken"
+                        type="text">
                     <span class="mp-form-help"></span>
                 </dd>
             </dl>
@@ -989,7 +989,7 @@
 
     <div class="row">
         <h2>Audio Attachments</h2>
-    </div>    
+    </div>
 
     {{!-- Audio Attachment Card --}}
     <div class="mp-pe-audio-attachment row">
@@ -999,22 +999,22 @@
             <dl>
                 <dt>Title</dt>
                 <dd>
-                    <input 
-                        class="mp-pe-audio-title form-control" 
-                        type="text">    
+                    <input
+                        class="mp-pe-audio-title form-control"
+                        type="text">
                     <span class="mp-form-help"></span>
                 </dd>
                 <dt><p>Link</p></dt>
                 <dd>
-                    <input 
-                        class="mp-pe-audio-link form-control" 
-                        type="text">    
+                    <input
+                        class="mp-pe-audio-link form-control"
+                        type="text">
                     <span class="mp-form-help"></span>
                 </dd>
             </dl>
             <div class="row center-text">
-                <button 
-                    class="mp-pe-add-audio btn btn-sm btn-primary" 
+                <button
+                    class="mp-pe-add-audio btn btn-sm btn-primary"
                     title="Add another attachment">
                     <i class="fa fa-plus"></i>
                 </button>
@@ -1022,8 +1022,8 @@
                     class="hide mp-pe-audio"
                     controls="true">
                 </audio>
-                <button 
-                    class="hide mp-pe-remove-audio btn btn-sm btn-danger" 
+                <button
+                    class="hide mp-pe-remove-audio btn btn-sm btn-danger"
                     title="Remove this attachment">
                     <i class="fa fa-minus"></i>
                 </button>
@@ -1034,7 +1034,7 @@
     </div>
 
     {{!-- Audio Cards
-          Auto-filled with pre-existing data 
+          Auto-filled with pre-existing data
             and cloned when pressing + button --}}
 
     {{#each audioAttachments}}
@@ -1048,24 +1048,24 @@
                 <dl>
                     <dt>Title</dt>
                     <dd>
-                        <input 
-                            class="form-control" 
-                            id="mp-pe-audio-link-0" 
-                            maxlength="100" 
-                            name="audio.0.title" 
+                        <input
+                            class="form-control"
+                            id="mp-pe-audio-link-0"
+                            maxlength="100"
+                            name="audio.0.title"
                             type="text"
-                            value={{title}}> 
+                            value={{title}}>
                         <span class="mp-form-help"></span>
                     </dd>
                     <dt><p>Link</p></dt>
                     <dd>
-                        <input 
-                            class="form-control" 
-                            maxlength="100" 
-                            id="mp-pe-audio-link-0" 
-                            name="audio.0.link" 
+                        <input
+                            class="form-control"
+                            maxlength="100"
+                            id="mp-pe-audio-link-0"
+                            name="audio.0.link"
                             type="text"
-                            value={{link}}>    
+                            value={{link}}>
                         <span class="mp-form-help"></span>
                     </dd>
                 </dl>
@@ -1075,8 +1075,8 @@
                         src="{{link}}"
                         title="{{title}}">
                     </audio>
-                    <button 
-                        class="float-right btn btn-sm btn-danger" 
+                    <button
+                        class="float-right btn btn-sm btn-danger"
                         title="Remove this attachment">
                         <i class="fa fa-minus"></i>
                     </button>
@@ -1121,12 +1121,12 @@
             </button>
         </div>
 
-    </div>    
+    </div>
 
     <div class="row">
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
         <div class="col-xs-10 card text-left">
             <p class="text-center">
@@ -1147,17 +1147,17 @@
                 <dt class="text-muted">Revision Type : User</dt>
                 <dd class="text-muted">xx/yy/zz @ aa:bb.cc</dd>
             </dl>
-        </div>    
+        </div>
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
     </div>
 
     <div class="row">
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
         <div class="col-xs-4 card">
             <p>
@@ -1166,10 +1166,10 @@
             <p>
                 0
             </p>
-        </div>    
+        </div>
 
         <div class="col-xs-2">
-        </div>    
+        </div>
 
         <div class="col-xs-4 card">
             <p>
@@ -1178,17 +1178,17 @@
             <p>
                 0
             </p>
-        </div>    
+        </div>
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
     </div>
 
     <div class="row">
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
         <div class="col-xs-4 card">
             <div class="row">
@@ -1199,10 +1199,10 @@
                     0
                 </p>
             </div>
-        </div>    
+        </div>
 
         <div class="col-xs-2">
-        </div>    
+        </div>
 
         <div class="col-xs-4 card">
             <div class="row">
@@ -1234,17 +1234,17 @@
                 </div>
                 <div class="col-xs-1"></div>
             </div>
-        </div>    
+        </div>
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
     </div>
 
     <div class="row">
 
         <div class="col-xs-1">
-        </div>    
+        </div>
 
         <div class="col-xs-4 card">
             <p>
@@ -1253,10 +1253,10 @@
             <p>
                 And stuff about her
             </p>
-        </div>    
+        </div>
 
         <div class="col-xs-2">
-        </div>    
+        </div>
 
         <div class="col-xs-4 card">
             <p>
@@ -1265,7 +1265,7 @@
             <p>
                 And stuff about him
             </p>
-        </div>    
+        </div>
 
     </div>
 
@@ -1291,9 +1291,9 @@
             <p>
                 Template
             </p>
-            <select 
-                class="form-control" 
-                id="mp-pe-template" 
+            <select
+                class="form-control"
+                id="mp-pe-template"
                 name="mp-pe-template">
                 {{!-- TODO: These should eventually be read dynamically
                             from valid templates --}}
@@ -1305,12 +1305,12 @@
                 <option value="Product">Product</option>
                 <option value="Standard">Standard</option>
                 <option value="Video">Video</option>
-            </select>    
+            </select>
             <span class="mp-form-help"></span>
         </div>
         <div class="col-xs-1">
         </div>
-    </div>    
+    </div>
     <div class="row">
         <div class="col-xs-1">
         </div>
@@ -1326,11 +1326,11 @@
                         CSS Class(es)
                     </p>
                     <div>
-                        <input 
-                            class="mp-fc-optional form-control" 
-                            id="mp-pe-nav-classes" 
-                            name="mp-pe-nav-classes" 
-                            type="text">    
+                        <input
+                            class="mp-fc-optional form-control"
+                            id="mp-pe-nav-classes"
+                            name="mp-pe-nav-classes"
+                            type="text">
                         <span class="mp-form-help">
                             Custom CSS classes (space separated)
                         </span>
@@ -1341,11 +1341,11 @@
                         Unique CSS ID
                     </p>
                     <div>
-                        <input 
-                            class="mp-fc-optional form-control" 
-                            id="mp-pe-nav-id" 
-                            name="mp-pe-nav-id" 
-                            type="text">    
+                        <input
+                            class="mp-fc-optional form-control"
+                            id="mp-pe-nav-id"
+                            name="mp-pe-nav-id"
+                            type="text">
                         <span class="mp-form-help">
                             Secondary class only
                         </span>
@@ -1358,11 +1358,11 @@
                         BS Glyph
                     </p>
                     <div>
-                        <input 
-                            class="mp-fc-optional form-control" 
-                            id="mp-pe-nav-glyph" 
-                            name="mp-pe-nav-glyph" 
-                            type="text">    
+                        <input
+                            class="mp-fc-optional form-control"
+                            id="mp-pe-nav-glyph"
+                            name="mp-pe-nav-glyph"
+                            type="text">
                         <span class="mp-form-help">
                             Custom CSS classes (space separated)
                         </span>
@@ -1373,11 +1373,11 @@
                         FA Icon
                     </p>
                     <div>
-                        <input 
-                            class="mp-fc-optional form-control" 
-                            id="mp-pe-nav-fai" 
-                            name="mp-pe-nav-fai" 
-                            type="text">    
+                        <input
+                            class="mp-fc-optional form-control"
+                            id="mp-pe-nav-fai"
+                            name="mp-pe-nav-fai"
+                            type="text">
                         <span class="mp-form-help">
                             Secondary class only
                         </span>
@@ -1387,7 +1387,7 @@
         </div>
         <div class="col-xs-1">
         </div>
-    </div>    
+    </div>
     <div class="row">
         <div class="col-xs-1">
         </div>
@@ -1402,11 +1402,11 @@
                     <p>
                         CSS Class(es)
                     </p>
-                    <input 
-                        class="mp-fc-optional form-control" 
-                        id="mp-pe-page-classes" 
-                        name="mp-pe-page-classes" 
-                        type="text">    
+                    <input
+                        class="mp-fc-optional form-control"
+                        id="mp-pe-page-classes"
+                        name="mp-pe-page-classes"
+                        type="text">
                     <span class="mp-form-help">
                         Custom CSS classes (space separated)
                     </span>
@@ -1415,11 +1415,11 @@
                     <p>
                         Unique CSS ID
                     </p>
-                    <input 
-                        class="mp-fc-optional form-control" 
-                        id="mp-pe-page-id" 
-                        name="mp-pe-page-id" 
-                        type="text">    
+                    <input
+                        class="mp-fc-optional form-control"
+                        id="mp-pe-page-id"
+                        name="mp-pe-page-id"
+                        type="text">
                     <span class="mp-form-help">
                         Secondary class only
                     </span>
@@ -1430,11 +1430,11 @@
                     <p>
                         BS Glyph
                     </p>
-                    <input 
-                        class="mp-fc-optional form-control" 
-                        id="mp-pe-page-glyph" 
-                        name="mp-pe-page-glyph" 
-                        type="text">    
+                    <input
+                        class="mp-fc-optional form-control"
+                        id="mp-pe-page-glyph"
+                        name="mp-pe-page-glyph"
+                        type="text">
                     <span class="mp-form-help">
                         Custom CSS classes (space separated)
                     </span>
@@ -1443,11 +1443,11 @@
                     <p>
                         FA Icon
                     </p>
-                    <input 
-                        class="mp-fc-optional form-control" 
-                        id="mp-pe-page-fai" 
-                        name="mp-pe-page-fai" 
-                        type="text">    
+                    <input
+                        class="mp-fc-optional form-control"
+                        id="mp-pe-page-fai"
+                        name="mp-pe-page-fai"
+                        type="text">
                     <span class="mp-form-help">
                         Secondary class only
                     </span>
@@ -1456,7 +1456,7 @@
         </div>
         <div class="col-xs-1">
         </div>
-    </div>    
+    </div>
 
 </template>
 
@@ -1475,42 +1475,42 @@
         <div class="col-xs-10 card">
             <div class="row">
                 <p>Title</p>
-                <input 
-                    class="mp-pe-image-title form-control" 
+                <input
+                    class="mp-pe-image-title form-control"
                     placeholder="Required"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help">Image titles should be formatted in a similar fashion to book titles.</span>
             </div>
             <div class="row">
                 <p>Caption</p>
-                <input 
-                    class="mp-pe-image-caption form-control" 
+                <input
+                    class="mp-pe-image-caption form-control"
                     placeholder="Required"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help">Image captions should be succinct but thorough.</span>
             </div>
             <div class="row">
                 <p>Primary URL</p>
-                <input 
-                    class="mp-pe-image-input mp-pe-image-url form-control" 
+                <input
+                    class="mp-pe-image-input mp-pe-image-url form-control"
                     placeholder="Required"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help">The image displayed by default in the page context.</span>
             </div>
             <div class="row">
                 <p>Alternate Text</p>
-                <input 
-                    class="mp-pe-image-alt form-control" 
+                <input
+                    class="mp-pe-image-alt form-control"
                     placeholder="Required"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
             </div>
             <div class="row">
                 <p>Name</p>
-                <input 
-                    class="mp-pe-image-name form-control" 
+                <input
+                    class="mp-pe-image-name form-control"
                     placeholder="Required"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
             </div>
 
@@ -1521,12 +1521,12 @@
                     <p>Feature Image</p>
                     <div class="btn-group">
                         <button
-                                type="button" 
+                                type="button"
                                 class="mp-pe-image-toggle-feature mp-pe-toggle-on btn btn-sm btn-default">
                             On
                         </button>
                         <button
-                                type="button" 
+                                type="button"
                                 class="mp-pe-image-toggle-feature mp-pe-toggle-off btn btn-sm btn-primary">
                             Off
                         </button>
@@ -1544,7 +1544,7 @@
                             {{#each so}}
                                 <option value="{{this}}">{{this}}</option>
                             {{/each}}
-                    </select>    
+                    </select>
                     <span class="mp-form-help">Sort order relative to siblings</span>
                 </div>
                 <div class="col-xs-1">
@@ -1563,18 +1563,18 @@
 
             <div class="row">
                 <p>Links to</p>
-                <input 
-                    class="mp-pe-image-link form-control" 
+                <input
+                    class="mp-pe-image-link form-control"
                     placeholder="Optional"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
             </div>
             <div class="row">
                 <p>Huge URL</p>
-                <input 
-                    class="mp-pe-image-input mp-pe-image-url-huge form-control" 
+                <input
+                    class="mp-pe-image-input mp-pe-image-url-huge form-control"
                     placeholder="Optional"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
                 <div class="row center-block">
                     <img class="hide mp-pe-image-huge width-18-em" />
@@ -1582,10 +1582,10 @@
             </div>
             <div class="row">
                 <p>Large URL</p>
-                <input 
-                    class="mp-pe-image-input mp-pe-image-url-large form-control" 
+                <input
+                    class="mp-pe-image-input mp-pe-image-url-large form-control"
                     placeholder="Optional"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
                 <div class="row center-block">
                     <img class="hide mp-pe-image-large width-18-em" />
@@ -1593,10 +1593,10 @@
             </div>
             <div class="row">
                 <p>Small URL</p>
-                <input 
-                    class="mp-pe-image-input mp-pe-image-url-small form-control" 
+                <input
+                    class="mp-pe-image-input mp-pe-image-url-small form-control"
                     placeholder="Optional"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
                 <div class="row center-block">
                     <img class="hide mp-pe-image-small width-18-em" />
@@ -1604,10 +1604,10 @@
             </div>
             <div class="row">
                 <p>Thumbnail (Square) URL</p>
-                <input 
-                    class="mp-pe-image-input mp-pe-image-url-square form-control" 
+                <input
+                    class="mp-pe-image-input mp-pe-image-url-square form-control"
                     placeholder="Optional"
-                    type="text">    
+                    type="text">
                 <span class="mp-form-help"></span>
                 <div class="row center-block">
                     <img class="hide mp-pe-image-square width-18-em" />
@@ -1615,13 +1615,13 @@
             </div>
 
             <div class="row center-text">
-                <button 
-                    class="mp-pe-add-image btn btn-sm btn-primary" 
+                <button
+                    class="mp-pe-add-image btn btn-sm btn-primary"
                     title="Add another attachment">
                     <i class="fa fa-plus"></i>
                 </button>
-                <button 
-                    class="hide mp-pe-remove-image btn btn-sm btn-danger" 
+                <button
+                    class="hide mp-pe-remove-image btn btn-sm btn-danger"
                     title="Remove this attachment">
                     <i class="fa fa-minus"></i>
                 </button>
@@ -1629,7 +1629,7 @@
         </div>
         <div class="col-xs-1">
         </div>
-    </div>    
+    </div>
 
 </template>
 
@@ -1653,15 +1653,15 @@
                 <p>Sitemap</p>
                 <div>
                     <div class="btn-group">
-                        <button 
-                            id="mp-pe-sitemap-on" 
-                            type="button" 
+                        <button
+                            id="mp-pe-sitemap-on"
+                            type="button"
                             class="btn btn-sm btn-primary mp-pe-sitemap-toggle">
                             On
                         </button>
-                        <button 
-                            id="mp-pe-sitemap-off" 
-                            type="button" 
+                        <button
+                            id="mp-pe-sitemap-off"
+                            type="button"
                             class="btn btn-sm btn-default mp-pe-sitemap-toggle">
                             Off
                         </button>
@@ -1670,14 +1670,14 @@
             </div>
             <div class="row">
                 <div class="col-xs-6">
-                    <label 
+                    <label
                         class="control-label"
                         for="mp-page-editor-sitemap-frequency">
                         Frequency
                     </label>
-                    <select  
-                        class="form-control"  
-                        id="mp-page-editor-sitemap-frequency"  
+                    <select
+                        class="form-control"
+                        id="mp-page-editor-sitemap-frequency"
                         name="sitemapFrequency">
 
                         <option value="always">Always</option>
@@ -1688,18 +1688,18 @@
                         <option value="yearly">Yearly</option>
                         <option value="never">Never</option>
 
-                    </select>    
+                    </select>
                     <span class="mp-form-help"></span>
                 </div>
                 <div class="col-xs-6">
-                    <label 
-                        class="control-label" 
+                    <label
+                        class="control-label"
                         for="mp-page-editor-sitemap-priority">
                         Priority
                     </label>
-                    <select 
-                        class="form-control" 
-                        id="mp-page-editor-sitemap-priority" 
+                    <select
+                        class="form-control"
+                        id="mp-page-editor-sitemap-priority"
                         name="sitemapPriority">
 
                         <option value="0">0</option>
@@ -1713,11 +1713,11 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
 
-                    </select>    
+                    </select>
                     <span class="mp-form-help"></span>
                 </div>
             </div>
-        </div>    
+        </div>
         <div class="col-xs-1">
         </div>
 
@@ -1732,8 +1732,8 @@
                 <div class="col-xs-1">
                 </div>
                 <div class="col-xs-9">
-                    <select 
-                        class="mp-pe-access-role form-control" 
+                    <select
+                        class="mp-pe-access-role form-control"
                         name="template.type">
                         <option value="Anonymous" selected="selected">Anonymous</option>
                         <option value="Registered">Registered</option>
@@ -1756,8 +1756,8 @@
                     </select>
                 </div>
                 <div class="col-xs-1">
-                    <button 
-                        class="btn btn-sm btn-danger" 
+                    <button
+                        class="btn btn-sm btn-danger"
                         title="Remove this image">
                         <i class="fa fa-minus"></i>
                     </button>
@@ -1766,8 +1766,8 @@
                 </div>
             </div>
             <div class="row center-text">
-                <button 
-                    class="btn btn-sm btn-primary" 
+                <button
+                    class="btn btn-sm btn-primary"
                     title="Add another image">
                     <i class="fa fa-plus"></i>
                 </button>
@@ -1786,8 +1786,8 @@
                 <div class="col-xs-1">
                 </div>
                 <div class="col-xs-9">
-                    <select 
-                        class="mp-pe-access-role form-control" 
+                    <select
+                        class="mp-pe-access-role form-control"
                         name="template.type">
                         {{#each authors}}
                             <option value="{{_id}}">{{username}}</option>
@@ -1796,8 +1796,8 @@
                     </select>
                 </div>
                 <div class="col-xs-1">
-                    <button 
-                        class="btn btn-sm btn-danger" 
+                    <button
+                        class="btn btn-sm btn-danger"
                         title="Remove this image">
                         <i class="fa fa-minus"></i>
                     </button>
@@ -1806,8 +1806,8 @@
                 </div>
             </div>
             <div class="row center-text">
-                <button 
-                    class="btn btn-sm btn-primary" 
+                <button
+                    class="btn btn-sm btn-primary"
                     title="Add another image">
                     <i class="fa fa-plus"></i>
                 </button>
@@ -1840,33 +1840,33 @@
                 </div>
                 <div class="col-xs-10">
                     <p>Headline</p>
-                    <input 
-                        class="mp-fc-required form-control" 
-                        maxlength="100" 
-                        id="mp-pe-content-headline" 
-                        name="contentHeadline" 
-                        type="text">    
+                    <input
+                        class="mp-fc-required form-control"
+                        maxlength="100"
+                        id="mp-pe-content-headline"
+                        name="contentHeadline"
+                        type="text">
                     <span class="mp-form-help">Must be 1 and 100 characters</span>
                 </div>
                 <div class="col-xs-1">
                 </div>
-            </div>    
+            </div>
             <div class="row">
                 <div class="col-xs-1">
                 </div>
                 <div class="col-xs-10">
                     <p>Summary</p>
-                    <textarea 
-                        rows="2" 
-                        class="mp-fc-required form-control" 
-                        id="mp-pe-content-summary" 
-                        name="contentSummary" 
+                    <textarea
+                        rows="2"
+                        class="mp-fc-required form-control"
+                        id="mp-pe-content-summary"
+                        name="contentSummary"
                         type="text"></textarea>
                     <span class="mp-form-help">Must be between 25 and 255 characters</span>
                 </div>
                 <div class="col-xs-1">
                 </div>
-            </div>    
+            </div>
         </div>
         <div class="col-xs-1">
         </div>
@@ -1887,13 +1887,13 @@
                     </p>
                     <div>
                         <div class="btn-group">
-                            <button id="mp-page-editor-active-on" 
-                                    type="button" 
+                            <button id="mp-page-editor-active-on"
+                                    type="button"
                                     class="btn btn-sm btn-primary">
                                 On
                             </button>
-                            <button id="mp-page-editor-active-off" 
-                                    type="button" 
+                            <button id="mp-page-editor-active-off"
+                                    type="button"
                                     class="btn btn-sm btn-default">
                                 Off
                             </button>
@@ -1906,13 +1906,13 @@
                     </p>
                     <div>
                         <div class="btn-group">
-                            <button id="mp-page-editor-hidden-on" 
-                                    type="button" 
+                            <button id="mp-page-editor-hidden-on"
+                                    type="button"
                                     class="btn btn-sm btn-default">
                                 On
                             </button>
-                            <button id="mp-page-editor-hidden-off" 
-                                    type="button" 
+                            <button id="mp-page-editor-hidden-off"
+                                    type="button"
                                     class="btn btn-sm btn-primary">
                                 Off
                             </button>
@@ -1922,55 +1922,55 @@
             </div>
             <div class="row">
                 <div class="col-xs-8">
-                    <p class="control-label" 
+                    <p class="control-label"
                             for="EHHRmDYeBANn5HRAA">
                         Title
                     </p>
-                    <input 
-                        class="mp-fc-required form-control" 
-                        maxlength="25" 
-                        id="mp-pe-navigation-title" 
-                        name="navigationTitle" 
-                        type="text">    
+                    <input
+                        class="mp-fc-required form-control"
+                        maxlength="25"
+                        id="mp-pe-navigation-title"
+                        name="navigationTitle"
+                        type="text">
                     <span class="mp-form-help">Must be between 1 and 25 characters</span>
                 </div>
                 <div class="col-xs-4">
                     <p class="control-label" for="EHHRmDYeBANn5HRAA">
                         Parent
                     </p>
-                    <select 
-                            class="form-control" 
-                            id="nY2GNmnFfLSuBwMvr" 
+                    <select
+                            class="form-control"
+                            id="nY2GNmnFfLSuBwMvr"
                             name="navigationSort">
                         <option value="0">Root</option>
                         {{#each parents}}
                             <option value="{{_id}}">{{page}}</option>
                         {{/each}}
-                    </select>    
+                    </select>
                     <span class="mp-form-help">Choose an existing page or root</span>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-8">
-                    <p class="control-label" 
+                    <p class="control-label"
                             for="EHHRmDYeBANn5HRAA">
                         Slug
                     </p>
-                    <input 
-                        class="mp-fc-required form-control" 
-                        maxlength="100" 
-                        id="mp-pe-navigation-slug" 
-                        name="navigationSlug" 
-                        type="text">    
+                    <input
+                        class="mp-fc-required form-control"
+                        maxlength="100"
+                        id="mp-pe-navigation-slug"
+                        name="navigationSlug"
+                        type="text">
                         <span class="mp-form-help">1-100 alphanumeric characters, underscores, and hyphens</span>
                 </div>
                 <div class="col-xs-4">
                     <p class="control-label" for="EHHRmDYeBANn5HRAA">
                         Sort
                     </p>
-                    <select 
-                            class="form-control" 
-                            id="nY2GNmnFfLSuBwMvr" 
+                    <select
+                            class="form-control"
+                            id="nY2GNmnFfLSuBwMvr"
                             name="navigationSort">
                         <option value="Alpha">Alpha</option>
                         <option value="R-Alpha">R-Alpha</option>
@@ -1979,7 +1979,7 @@
                             {{#each so}}
                                 <option value="{{this}}">{{this}}</option>
                             {{/each}}
-                    </select>    
+                    </select>
                     <span class="mp-form-help">Sort order relative to siblings</span>
                 </div>
             </div>
@@ -2009,23 +2009,23 @@
             <div class="row">
                 <p>Save this page and go to:</p>
                 <div class="btn-group">
-                    <button id="mp-pe-save-close" 
-                            type="button" 
+                    <button id="mp-pe-save-close"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         Dashboard
                     </button>
-                    <button id="mp-pe-save-close" 
-                            type="button" 
+                    <button id="mp-pe-save-close"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         Home
                     </button>
-                    <button id="mp-pe-save-new" 
-                            type="button" 
+                    <button id="mp-pe-save-new"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         New
                     </button>
-                    <button id="mp-pe-save-stay" 
-                            type="button" 
+                    <button id="mp-pe-save-stay"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         Stay
                     </button>
@@ -2034,13 +2034,13 @@
             <div class="row">
                 <p>Revision type</p>
                 <div class="btn-group">
-                    <button id="mp-ap-collapse-headers-on" 
-                            type="button" 
+                    <button id="mp-ap-collapse-headers-on"
+                            type="button"
                             class="btn btn-sm btn-default">
                         Major
                     </button>
-                    <button id="mp-ap-collapse-headers-on" 
-                            type="button" 
+                    <button id="mp-ap-collapse-headers-on"
+                            type="button"
                             class="btn btn-sm btn-primary">
                         Minor
                     </button>
@@ -2057,16 +2057,16 @@
         <div class="col-xs-10 card">
             <div class="row">
                 <div class="col-xs-12">
-                    <p class="control-label" 
+                    <p class="control-label"
                             for="EHHRmDYeBANn5HRAA">
                         Tweet
                     </p>
-                    <input 
-                        class="mp-fc-optional form-control" 
-                        maxlength="20" 
-                        id="EHHRmDYeBANn5HRAA" 
-                        name="navigationTitle" 
-                        type="text">    
+                    <input
+                        class="mp-fc-optional form-control"
+                        maxlength="20"
+                        id="EHHRmDYeBANn5HRAA"
+                        name="navigationTitle"
+                        type="text">
                     <span class="mp-form-help">Custom CSS classes (space separated)</span>
                 </div>
             </div>
@@ -2075,12 +2075,12 @@
                     <p class="control-label">
                         Image
                     </p>
-                    <input 
-                        class="mp-fc-optional form-control" 
-                        maxlength="20" 
-                        id="mp-pe-tweet-image" 
-                        name="tweetImage" 
-                        type="text">    
+                    <input
+                        class="mp-fc-optional form-control"
+                        maxlength="20"
+                        id="mp-pe-tweet-image"
+                        name="tweetImage"
+                        type="text">
                     <span class="mp-form-help">Custom CSS classes (space separated)</span>
                 </div>
                 <div class="col-xs-4">
@@ -2089,13 +2089,13 @@
                     </p>
                     <div>
                         <div class="btn-group">
-                            <button id="mp-page-editor-active-on" 
-                                    type="button" 
+                            <button id="mp-page-editor-active-on"
+                                    type="button"
                                     class="btn btn-sm btn-primary">
                                 On
                             </button>
-                            <button id="mp-page-editor-active-off" 
-                                    type="button" 
+                            <button id="mp-page-editor-active-off"
+                                    type="button"
                                     class="btn btn-sm btn-default">
                                 Off
                             </button>
@@ -2136,7 +2136,7 @@
                     <button id="mp-pe-audio-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-audio-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Collapsible
@@ -2145,7 +2145,7 @@
                     <button id="mp-pe-collapsible-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-collapsible-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Comments
@@ -2154,7 +2154,7 @@
                     <button id="mp-pe-comments-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-comments-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Featured
@@ -2163,7 +2163,7 @@
                     <button id="mp-pe-featured-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-featured-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Images
@@ -2172,7 +2172,7 @@
                     <button id="mp-pe-images-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-images-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Markdown
@@ -2181,7 +2181,7 @@
                     <button id="mp-pe-markdown-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-markdown-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     PDF
@@ -2190,7 +2190,7 @@
                     <button id="mp-pe-pdf-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-pdf-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Private
@@ -2199,7 +2199,7 @@
                     <button id="mp-pe-pdf-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-pdf-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
 
         </div>
         <div class="col-xs-2">
@@ -2214,7 +2214,7 @@
                     <button id="mp-pe-ratings-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-ratings-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Sticky
@@ -2223,7 +2223,7 @@
                     <button id="mp-pe-sticky-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-sticky-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Share
@@ -2232,7 +2232,7 @@
                     <button id="mp-pe-share-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-share-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Site header
@@ -2241,7 +2241,7 @@
                     <button id="mp-pe-site-header-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-site-header-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Text2speech
@@ -2250,7 +2250,7 @@
                     <button id="mp-t2s-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-t2s-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Table of contents
@@ -2259,7 +2259,7 @@
                     <button id="mp-pe-toc-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-toc-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
             <div class="form-group">
                 <p>
                     Videos
@@ -2268,7 +2268,7 @@
                     <button id="mp-pe-videos-on" type="button" class="btn btn-sm btn-primary mp-page-editor-toggle-toggle">On</button>
                     <button id="mp-pe-videos-off" type="button" class="btn btn-sm btn-default mp-page-editor-toggle-toggle">Off</button>
                 </div>
-            </div>    
+            </div>
 
         </div>
         <div class="col-xs-1">
@@ -2297,18 +2297,18 @@
             <div class="row">
                 <p>Trash this page and go to:</p>
                 <div class="btn-group">
-                    <button id="mp-pe-save-close" 
-                            type="button" 
+                    <button id="mp-pe-save-close"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         Dashboard
                     </button>
-                    <button id="mp-pe-save-stay" 
-                            type="button" 
+                    <button id="mp-pe-save-stay"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         Home
                     </button>
-                    <button id="mp-pe-save-new" 
-                            type="button" 
+                    <button id="mp-pe-save-new"
+                            type="button"
                             class="mp-pe-save btn btn-default">
                         New
                     </button>
@@ -2334,13 +2334,13 @@
                     </p>
                     <div>
                         <div class="btn-group">
-                            <button id="mp-page-editor-active-on" 
-                                    type="button" 
+                            <button id="mp-page-editor-active-on"
+                                    type="button"
                                     class="btn btn-sm btn-primary">
                                 On
                             </button>
-                            <button id="mp-page-editor-active-off" 
-                                    type="button" 
+                            <button id="mp-page-editor-active-off"
+                                    type="button"
                                     class="btn btn-sm btn-default">
                                 Off
                             </button>
@@ -2353,13 +2353,13 @@
                     </p>
                     <div>
                         <div class="btn-group">
-                            <button id="mp-page-editor-hidden-on" 
-                                    type="button" 
+                            <button id="mp-page-editor-hidden-on"
+                                    type="button"
                                     class="btn btn-sm btn-default">
                                 On
                             </button>
-                            <button id="mp-page-editor-hidden-off" 
-                                    type="button" 
+                            <button id="mp-page-editor-hidden-off"
+                                    type="button"
                                     class="btn btn-sm btn-primary">
                                 Off
                             </button>
@@ -2396,11 +2396,11 @@
                 <div class="col-xs-2">
                 </div>
                 <div class="col-xs-8">
-                    <input class="form-control" 
-                        maxlength="100" 
-                        id="mp-page-editor-video-title-0" 
-                        name="video.0.title" 
-                        type="text">    
+                    <input class="form-control"
+                        maxlength="100"
+                        id="mp-page-editor-video-title-0"
+                        name="video.0.title"
+                        type="text">
                     <span class="mp-form-help"></span>
                 </div>
                 <div class="col-xs-2">
@@ -2411,11 +2411,11 @@
                 <div class="col-xs-2">
                 </div>
                 <div class="col-xs-8">
-                    <input class="form-control" 
-                        maxlength="100" 
-                        id="mp-page-editor-video-link-0" 
-                        name="video.0.link" 
-                        type="text">    
+                    <input class="form-control"
+                        maxlength="100"
+                        id="mp-page-editor-video-link-0"
+                        name="video.0.link"
+                        type="text">
                     <span class="mp-form-help"></span>
                 </div>
                 <div class="col-xs-2">
@@ -2475,6 +2475,40 @@
         </div>
 
         <div class="row" id="mp-yield">
+            <h1 style="text-align: center">Welcome!</h1>
+            <p>This is hardcoded into the demo.  These are the working routes / menu items:</p>
+            <ul>
+              <li>
+                <a href="/install">/install</a> <strong> - Start here! If someone else has installed, you will be booted on second screen.  Demo resets at 12am & 12pm EST, daily.</strong>
+              </li>
+              <li>
+                <a href="/">/</a>
+              </li>
+              <li>
+                <a href="/admin">/admin</a>
+              </li>
+              <li>
+                <a href="/admin/config">/admin/config</a> (autoform upgrade while working on #OnePageWonder has caused stack traces here)
+              </li>
+              <li>
+                <a href="/admin/news">/admin/news</a>
+              </li>
+              <li>
+                <a href="/admin/pages">/admin/pages</a>
+              </li>
+              <li>
+                <a href="/admin/posts">/admin/posts</a>
+              </li>
+              <li>
+                <a href="/admin/roles">/admin/roles</a> (unfortunately, role & feature defaults are not automatically installed yet [in fact, no default/demo data is..but the installer has a button for them! :D)
+              </li>
+              <li>
+                <a href="/admin/users">/admin/users</a> (Not all card views accessible)
+              </li>
+              <li>
+                <a href="/authenticate">/authenticate</a>
+              </li>
+            </ul>
             {{> yield}}
         </div>
 

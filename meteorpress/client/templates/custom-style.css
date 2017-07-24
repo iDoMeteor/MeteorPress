@@ -1,0 +1,16 @@
+/*Custom CSS Style and Overrides*/
+
+.is-sharp{
+    border-radius: 0 !important;
+}
+
+.show{
+    
+}
+
+.hide{
+    display: none;
+}
+
+
+

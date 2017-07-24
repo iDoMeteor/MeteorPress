@@ -6,9 +6,10 @@
     {{>templateTopNav}}
     {{>templateHeader}}
     {{>templateSectionFirst}}
-    {{>x}}
-    
+    {{>templateProjects}}
+    {{>templateClients}} 
     {{>templateFooter}}
+    
 </template>
 
 
@@ -141,9 +142,14 @@
             <div class="image" style="background-image: url('../assets/img/office-4.jpeg')"></div>
         </div>
     </div>
-    
-    
-        <div class="section section-our-projects section-our-projects-fluid">
+
+
+
+
+</template>
+
+<template name="templateProjects">
+    <div class="section section-our-projects section-our-projects-fluid">
 
         <div class="title-area">
             <h5 class="subtitle text-gray">Here you can check</h5>
@@ -232,11 +238,9 @@
         </div>
     </div>
 
-
 </template>
 
-
-<template name="x">
+<template name="templateClients">
 
     <div class="section section-our-clients">
         <div class="container">
@@ -245,7 +249,7 @@
                 <h2>Our Premium Clients</h2>
 
                 <div class="separator separator-danger">∎</div>
-                </div>
+            </div>
 
             <ul class="nav nav-text list-logos list-logos-danger" role="tablist">
                 <li class="active">
@@ -360,7 +364,7 @@
                 <div class="col-md-3 col-md-offset-1 col-sm-3">
                     <div class="info">
                         <h5 class="title"> Help and Support</h5>
-                         <nav>
+                        <nav>
                             <ul>
                                 <li>
                                     <a href="#">Contact Us</a>
@@ -433,7 +437,7 @@
             </div>
             <hr>
             <div class="copyright">
-                 ©  MeteorPress
+                © MeteorPress
             </div>
         </div>
     </footer>

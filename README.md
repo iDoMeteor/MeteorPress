@@ -1,32 +1,10 @@
-# #MeteorPress v1.0.0-beta.3 (in progress)
+# #MeteorPress v1.0.0-RC1
 
 # TL;DR
 
-A robust Meteor based hybrid content management system.  I say 'hybrid' because it has a markdown editor, options for anonymous editing, revision history and eventually will bring up the page editor when a user with appropriate permissions (could be anonymous) lands on a non-existent route much like a wiki.  However, it also has all the robustness of a full-blown content management system.
-
-Another hybrid quality comes from being built upon Meteor which means that you could also use #MeteorPress as a framework for a mobile application with minimal effort!
-
-Screen shots @ the bottom of this page and [on twitter](http://twitter.com/idometeor/media), video playlist on [YouTube here](https://www.youtube.com/playlist?list=PLz5iYsoODTu4bkLLkUf6yEk2LCCvO7ua8).
 
 # Coding Style & Layout
 
-It is kind of messy right now.  It's also very big.  I moved to [#OnePageWonder](http://github.com/idometeor/onepagewonder) to finely hone my Meteor style and architecture and it is close to what I'm striving for.  You can get a concise view by looking at the [tree.txt](https://github.com/iDoMeteor/meteorpress/blob/master/notes/tree.txt) or [tree-d.txt (directories only)](https://github.com/iDoMeteor/meteorpress/blob/master/notes/tree-d.txt).
-
-# Why?
-
-After spending a lot of time on [#Twiefbot](http://github.com/idometeor/twiefbot), I decided to challenge myself to make an app a day for seven days and then blog about it.  Well, I made the first day's mission setting up a Meteor based blog because I absolutely refuse to use Wordpress and I didn't even think of using my old one.
-
-Let's just say that it did not go well.  The ones I did get to work did not work well or even come close to doing what I wanted.  I guess I have high standards after spending so many years using my own custom CMS.
-
-Therefore, I made it my mission to solve that problem not just for myself but for everyone.
-
-# Why the change to [#OnePageWonder](http://github.com/idometeor/onepagewonder)
-
-This system is super complex.  I put it on pause for two reasons.
-A) I needed to produce something I could profit from, faster.
-B) I needed to really nail down a few of the more esoteric Meteor concepts in a ... simpler environment.
-
-I shall love them both equally, forever (or until I move into my 2045 avatar!).  I promise.
 
 # Current Status
 
@@ -99,9 +77,6 @@ Template Steps
     _/- mpInstallSuccess
      \- mpInstallFailure
 
-# The Magic
-
-Is all over the place (it's Meteor after all!), but fairly dusty.
 
 # Procedural View
 
@@ -148,26 +123,6 @@ Is all over the place (it's Meteor after all!), but fairly dusty.
 
 
 
-#Feedback:
-
-Tweet it to .@iDoMeteor with #MeteorPress. Customized sites w/screenshots ftw!
-
-Please provide general feedback to me via Twitter public mention, for bug reports
-use DM with your favorite pasting service of choice with the console logs from both
-the server & client, your browser & OS, and description of problem.  Preferably in
-a such a way that will allow me to reproduce it.
-
-Bug and feature requests on Github or Trello, please.
-
-# Caveats
-
-* Yes, I could easily control file loading if/when I package this.  *However*, there are distinct disadvantages (and advantages) to providing this system as a package.  I intend to offer both and therefore tight control over natural load order is integral.  And still being nailed down.  Beginners and profit hackers will appreciate being able to rip right into the code on a per-project basis.
-* Some of these files are currently just place holders so I can shuffle them around and see where I would like them to eventually load from.
-
-# Screen Shots
-
-[Check them on Twitter](http://twitter.com/iDoMeteor/media)
-
 # Videos on YouTube
 
 They average 10-12 minutes but are quite thorough!
@@ -190,8 +145,4 @@ All user profile objects can be counted on to provide:
 
 > May be null, otherwise it will have value
 
-Things I *really* don't have time for, maybe ever:
 
-    A bunch of awesome themes, custom web icon font set
-    Front-end & unit testing
-    Mobile testing

@@ -6,8 +6,8 @@
 .meteor/.gitignore
 .meteor/.id
 .meteor/platforms
+node_modules/
 notes.txt
-packages/
 private/
 meteorpress.json
 settings.json
